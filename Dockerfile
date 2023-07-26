@@ -1,4 +1,4 @@
-FROM rust:slim-bullseye
+FROM rust:slim-bookworm
 RUN apt-get update -y \
     && apt-get dist-upgrade -y \
     && apt-get install -y libssl-dev pkg-config \
